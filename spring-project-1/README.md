@@ -1,0 +1,8 @@
+- This project manages programming languages in the system.
+- Given web query, takes relative path and ,if needed, required query parameter and executes the desired task.
+- Managing any invalid parameter values given with returning a string that tells the result of query.
+- `.../api/languages/getall` : Returns all languages stored in the system.
+- `.../api/languages/add?name={value}`: If name is valid and does not exists already, adds to the system.
+- `.../api/languages/find?id={value}`: If id is not out of border, returns the language with that index.
+- `.../api/languages/delete?id={value}`: If id is not out of border, deletes the language with that index.
+- `.../api/languages/update?id={value}&name={value}`: If id and name are valid, id is not out of border and name does not exists already, updates the language's name which have that index.
